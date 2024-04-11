@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'sans-serif';
+    background-color: #281549;
+    color:hsl(0, 0%, 100%);
+    text-shadow:2px 2px rgba(255, 255, 255, 0.500);
+}
+
+p{  
+    text-decoration:none;
+    font-style:none;
+}
+
+a{  
+    text-decoration: none;
+    font-style:none;
+    color:#fff;
+}
+a:hover{
+    font-style:none;
+    color:#7300ff;
+}
+a:visited{
+    text-decoration: dashed;
+    color:#f54848;
+}
+
+.active{
+    background-color:transparent;
+    color:#a393b6;
+    font-weight: bolder;
+}
+
+/*  Buttons  */
+.btn_1{
+    color:#fff;
+    font-size:1em;
+    padding:10px;
+    background-color:#e448f5;
+    border-radius:45px;
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+    margin-left:125px;
+    margin-bottom:20px;
+    cursor: pointer;
+    transition:1s;
+    display:inline-block;
+}
+.btt{
+    display: inline-block;
+    margin-right: 20px;
+}
+.btn_2{
+    color:#fff;
+    font-size:1em;
+    padding:10px;
+    background-color:transparent;
+    border:5px solid #7300ff;
+    border-radius:45px;
+    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom:20px;
+    cursor: pointer;
+    transition:1s;
+
+    display:inline-block;
+}
+
+
+/*  INDEX  */
+.gate{
+    background-image: url('../img/body.jpg');
+}
+.base{
+    padding-top: 3em;
+    padding-left:3em;
+    font-size: 3em;
+    float:left;
+}
+.base h1{
+    margin-left:42px;
+}
+.base h3{
+    margin-top: -16px;
+    color:#e600ff;
+}
+.base h4{
+    margin-top:16px;
+    margin-left:32px;
+    margin-bottom: 16px;
+}
+
+.plans{
+    font-family: monospace;
+    background-color: #281549;
+    background-image:none;
+    padding-top:2em;
+    padding-left: 2em;
+    padding-right: 1em;
+    font-size:2em;
+    color:#e448f5;
+}
+.plans h5{
+    color:#fff;
+    text-shadow: none;
+}
+
+/*  FAQ  */
+.faq{
+    background-image: url('../img/neon.jpg');
+    font-family:monospace;
+    font-size:2em;
+    padding:5em;
+    color:#fb00ff;
+    padding-bottom: 5em;
+}
+.faq h1{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+.faq h3{
+    padding-bottom:16px;
+    color:#fc7ffe;
+}
+.faq h6{
+    color:#fff;
+}
+.f1{
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+
+/*  ABOUT US  */
+.about{
+    font-family:monospace;
+    background-color: #281549;
+    padding-top:5em;
+    padding: 2em 1em;
+    font-size:2em;
+    color:#fb00ff;
+    padding-bottom: 5em;
+}
+.about h1{
+    padding-top: 56px;
+    font-size: 2em;
+    text-align: center;
+}
+.about h3{
+    color:#fff;
+}
+
+/*  CONTACT  */
+.contact{
+    font-family:monospace;
+    background-color: #281549;
+    padding-top:5em;
+    padding: 2em 1em;
+    font-size:2em;
+    
+    padding-bottom: 5em;
+    text-align:center;
+}
+.contact h1{
+    color:#fb00ff;
+    padding-top: 56px;
+    font-size: 2em;
+}
+
+/*  MACHINE  */
+.mac{font-family:monospace;
+    background-color: #281549;
+    padding-top:5em;
+    padding: 2em 1em;
+    font-size:2em;
+    text-align:center;}
+.mac h1{
+    color:#fb00ff;
+    padding-top: 56px;
+    font-size: 2em;
+}

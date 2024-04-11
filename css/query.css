@@ -1,0 +1,38 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*  smartphone's portrait []  */
+@media only screen and (max-width: 767px) {
+    article{
+        display:grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 20px;
+    }
+    nav ul{
+        display:flex;
+    }
+    nav li{
+        flex:1;
+    }
+}
+
+/*  tablets  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    main {
+        display:grid;
+        column-gap: 20px;
+    }
+
+    article{
+        margin-bottom:0;
+    }
+}
+
+/*  desktops  */
+@media only screen and (min-width: 1025px) {
+    .container {
+        width: 60%;
+    }
+}
